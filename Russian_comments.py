@@ -1,6 +1,8 @@
+#Добавление модуля времени
 #Zmiana importing the time module
 import time
 
+#Приветствие пользователя
 #welcoming the user
 name = raw_input("Cual es tu nombre?")
 
@@ -8,18 +10,22 @@ print "Hola," + name, "es hora de jugar el juego"
 
 print ""
 
+#Подождите 1 минуту
 #wait for 1 second
 time.sleep(1)
 
 print "Empecemos ..."
 time.sleep(0.5)
 
+#Внедряем секрет
 #here we set the secret
 word = "secreto"
 
+#Создаем пустую переменную
 #creates an variable with an empty value
 guesses = ''
 
+#Определяем количество шагов
 #determine the number of turns
 turns = 10
 
